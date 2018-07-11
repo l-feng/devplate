@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/icon_home_select"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@mipmap/icon_lottery_select"
+        android:title="贷款" />
+
+    <item
+        android:id="@+id/navigation_shopCart"
+        android:icon="@mipmap/icon_welfare_select"
+        android:title="首页" />
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@mipmap/icon_mine_select"
+        android:title="我的" />
+</menu>
