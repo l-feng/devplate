@@ -30,7 +30,7 @@ import com.example.administrator.materialdesign.R;
 import com.example.administrator.materialdesign.adapter.viewpaper.ViewPagerAdapter;
 import com.example.administrator.materialdesign.fragment.HomeFragment;
 import com.example.administrator.materialdesign.fragment.SecondFragment;
-import com.example.administrator.materialdesign.fragment.ThreeFragment;
+import com.example.administrator.materialdesign.fragment.ThirdFragment;
 import com.example.administrator.materialdesign.utils.ActivityUtils;
 import com.example.administrator.materialdesign.utils.BottomNavigationViewHelper;
 
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         viewPagerAdapter=new ViewPagerAdapter(getSupportFragmentManager());
         viewPagerAdapter.addFragment(new HomeFragment());
         viewPagerAdapter.addFragment(new SecondFragment());
-        viewPagerAdapter.addFragment(new ThreeFragment());
+        viewPagerAdapter.addFragment(new ThirdFragment());
         viewPager.setAdapter(viewPagerAdapter);
         viewPager.setCurrentItem(0);
 
