@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.administrator.materialdesign.R;
@@ -15,6 +16,7 @@ import com.example.administrator.materialdesign.R;
 import com.example.administrator.materialdesign.constant.ActivityConstants;
 import com.example.administrator.materialdesign.okhttp.CallBackUtil;
 import com.example.administrator.materialdesign.okhttp.OkHttpUtil;
+import com.squareup.picasso.Picasso;
 
 
 import okhttp3.Call;
@@ -29,6 +31,7 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
     private int requestCode;
     private static final int REQUEST_CODE_AMOUNT = 5;
     private Button searchHttpButton;
+    private ImageView imageView;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         if (layout != null) {
@@ -43,6 +46,7 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
     }
 
     private void initView() {
+        imageView=layout.findViewById(R.id.image_view);
         searchHttpButton=layout.findViewById(R.id.http_search);
         searchHttpButton.setOnClickListener(this);
 
@@ -60,15 +64,15 @@ public class ThirdFragment extends Fragment implements View.OnClickListener {
     }
 
     public void httpSearch(){
-        String url = "https://www.baidu.com/";
+    final String url="http://pic20.nipic.com/20120504/9174242_113752197000_2.jpg";
         OkHttpUtil.okHttpGet(url, new CallBackUtil.CallBackString() {
             @Override
             public void onFailure(Call call, Exception e) {}
-
             @Override
             public void onResponse(String response) {
                 Toast.makeText(getActivity(),"Success",Toast.LENGTH_SHORT).show();
                 Log.d("lunatic",response);
+                Picasso.with(getActivity()).load(url).into(imageView);
             }
         });
 

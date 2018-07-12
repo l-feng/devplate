@@ -1,6 +1,7 @@
 package com.example.administrator.materialdesign.activity;
 
 
+import android.content.Intent;
 import android.graphics.Rect;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
@@ -91,8 +92,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mDrawerLayout.closeDrawers();
                 switch (item.getItemId()) {
                      case  R.id.nav_call:
-                         Toast.makeText(MainActivity.this, "加载第一个界面", Toast.LENGTH_SHORT).show();
-                         break;
+                        Intent intent=new Intent(MainActivity.this,BackLashRecycleActivity.class);
+                        startActivity(intent);
                     case R.id.nav_friends:
                         Toast.makeText(MainActivity.this, "加载第二个界面", Toast.LENGTH_SHORT).show();
                    //     mDrawerLayout.

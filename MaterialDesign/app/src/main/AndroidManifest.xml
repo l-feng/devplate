@@ -28,6 +28,8 @@
             ></activity>
         <activity android:name=".activity.MainActivity"
             android:theme="@style/AppTheme"></activity>
+        <activity android:name=".activity.BackLashRecycleActivity"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
