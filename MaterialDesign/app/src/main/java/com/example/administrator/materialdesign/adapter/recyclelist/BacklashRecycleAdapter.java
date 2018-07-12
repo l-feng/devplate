@@ -7,16 +7,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.example.administrator.materialdesign.R;
 import com.example.administrator.materialdesign.model.DataBean;
-import com.example.administrator.materialdesign.model.Datas;
 import com.example.administrator.materialdesign.weight.SwipeMenuLayout;
+import com.example.core.CircleImageView;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import de.hdodenhof.circleimageview.CircleImageView;
 
 
 /**
@@ -45,6 +43,7 @@ public class BacklashRecycleAdapter extends RecyclerView.Adapter<BacklashRecycle
         holder.tv_title.setText(dataBean.getName());
         holder.tv_subTitle.setText(dataBean.getContent());
 
+        holder.swipeMenuLayout.setExpand(false);
         holder.contentView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

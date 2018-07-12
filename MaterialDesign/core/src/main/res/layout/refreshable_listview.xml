@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/original_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparent" />
+
+    <com.yuanshanbao.ruidai.core.widget.list.EmptyView
+        android:id="@+id/neterror_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="157.5dp"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/refrefresh_nothing"
+            android:gravity="center"
+            android:text="@string/refresh_prompt_message"
+            android:textColor="@color/low_gray" />
+
+        <Button
+            android:id="@+id/refresh_nothing_button"
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_boundary_blue"
+            android:text="@string/button_to_apply"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/commen_tab_text_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

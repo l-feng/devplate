@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':core'
+include ':third_party:android-GridViewWithHeaderAndFooter', ':third_party:android-menudrawer', ':third_party:android-PullToRefresh', ':third_party:android-volley'

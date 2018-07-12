@@ -3,7 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/android-GridViewWithHeaderAndFooter/android-GridViewWithHeaderAndFooter.iml" filepath="$PROJECT_DIR$/third_party/android-GridViewWithHeaderAndFooter/android-GridViewWithHeaderAndFooter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/android-PullToRefresh/android-PullToRefresh.iml" filepath="$PROJECT_DIR$/third_party/android-PullToRefresh/android-PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/android-menudrawer/android-menudrawer.iml" filepath="$PROJECT_DIR$/third_party/android-menudrawer/android-menudrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/android-volley/android-volley.iml" filepath="$PROJECT_DIR$/third_party/android-volley/android-volley.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/third_party/third_party.iml" filepath="$PROJECT_DIR$/third_party/third_party.iml" />
     </modules>
   </component>
 </project>

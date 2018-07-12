@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_tab_text_size">10sp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <dimen name="commen_radius">2dp</dimen>
+    <dimen name="search_bar_text_size">12sp</dimen>
+    <dimen name="commen_tab_text_size">15sp</dimen>
+    <dimen name="trade_guide_process_text_size">13sp</dimen>
+    <dimen name="custom_huge_text_size">20sp</dimen>
+    <dimen name="custom_large_text_size">18sp</dimen>
+    <dimen name="custom_medium_text_size">16sp</dimen>
+    <dimen name="custom_small_text_size">14sp</dimen>
+    <dimen name="custom_mini_text_size">12sp</dimen>
+    <dimen name="custom_tiny_text_size">10sp</dimen>
+
+    <!-- 画图相关 -->
+    <dimen name="dpUnit">1dp</dimen>
+    <dimen name="chart_margin_vertical">20dp</dimen>
+    <dimen name="chart_margin_horizontal">10dp</dimen>
+    <dimen name="chart_span">2dp</dimen>
+    <dimen name="chart_time_zone_span">10dp</dimen>
+    <dimen name="chart_font_size">10dp</dimen>
+    <dimen name="chart_timefont_size">@dimen/custom_mini_text_size</dimen>
+    <dimen name="chart_loading_font_size">18dp</dimen>
+    <dimen name="chart_kline_column_open_close_width">3dp</dimen>
+    <dimen name="chart_kline_column_space_width">2dp</dimen>
+    <dimen name="chart_kline_column_open_close_min_width">1dp</dimen>
+    <dimen name="chart_kline_column_open_close_min_height">2dp</dimen>
+    <dimen name="chart_kline_column_high_low_width">0.5dp</dimen>
+    <dimen name="chart_kline_column_high_low_max_width">1dp</dimen>
+    <dimen name="chart_kline_column_high_low_min_width">0.5dp</dimen>
+
+
+    <!-- 分隔条高度 -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_height_middle">0.5dp</dimen>
+    <dimen name="divider_height_big">5dp</dimen>
+
+    <!-- 列表菜单项高度 -->
+    <dimen name="item_height_large">60dp</dimen>
+    <dimen name="item_height">50dp</dimen>
+    <dimen name="item_height_middle">48dp</dimen>
+
+    <!-- 菜单项间隔 -->
+    <dimen name="item_margin_top">12dp</dimen>
+    <dimen name="item_margin_left">12dp</dimen>
+    <dimen name="item_margin_right">12dp</dimen>
+    <dimen name="item_margin_bottom">12dp</dimen>
+
+
+    <!-- 间隔 -->
+    <dimen name="item_margin">10dp</dimen>
+    <dimen name="item_padding">5dp</dimen>
+    <dimen name="item_margin_large">18dp</dimen>
+
+    <!-- 通用控件 -->
+    <dimen name="common_widget_item_margin">15dp</dimen>
+    <dimen name="common_widget_item_arrow">16dp</dimen>
+    <dimen name="common_widget_item_title_height">40dp</dimen>
+    <dimen name="button_radius">4dp</dimen>
+    <dimen name="system_status_bar_height">15dp</dimen>
+    <dimen name="button_bottom_height">50dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="large_font_text">31sp</dimen>
+    <dimen name="font_amount">25sp</dimen>
+    <dimen name="font_big_button">20sp</dimen>
+    <dimen name="font_head_title">20sp</dimen>
+    <dimen name="font_h1_content">18sp</dimen>
+    <dimen name="font_small_h1_content">17sp</dimen>
+    <dimen name="font_h2_content">16sp</dimen>
+    <dimen name="font_sub_content">14sp</dimen>
+    <dimen name="font_description">12sp</dimen>
+    <dimen name="font_smaller_description">11sp</dimen>
+    <dimen name="font_tip">10sp</dimen>
+    <dimen name="font_little_small">4sp</dimen>
+
+
+    <dimen name="common_align_border">7dp</dimen>
+    <dimen name="common_align_border_middle">15dp</dimen>
+
+
+<!--首页-->
+
+    <!--字体-->
+    <dimen name="font_text_kind_size">15sp</dimen>
+    <dimen name="font_text_loan_size">14sp</dimen>
+    <dimen name="font_text_loan_amount_size">16sp</dimen>
+    <dimen name="font_text_tip_message_size">13sp</dimen>
+
+
+     <!--控件-->
+    <dimen name="common_item_height">119dp</dimen>
+    <dimen name="common_feature_tags_height">17dp</dimen>
+    <dimen name="home_tab_bar">33dp</dimen>
+
+
+</resources>

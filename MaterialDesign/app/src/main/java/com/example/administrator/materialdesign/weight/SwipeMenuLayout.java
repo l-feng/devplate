@@ -434,4 +434,11 @@ public class SwipeMenuLayout extends ViewGroup {
         this.collapseDuration = collapseDuration;
     }
 
+    public boolean isExpand() {
+        return isExpand;
+    }
+
+    public void setExpand(boolean expand) {
+        isExpand = expand;
+    }
 }

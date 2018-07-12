@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="selectorViewStyle" format="reference" />
+    <attr name="toggleViewStyle" format="reference" />
+    <attr name="dateViewStyle" format="reference" />
+    <attr name="textSize" format="dimension" />
+    <attr name="textColor" format="reference|color" />
+
+    <declare-styleable name="SelectorView">
+        <attr name="visibleCount" format="integer" />
+        <attr name="loop" format="boolean" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonTextEdit">
+        <attr name="textTitle" format="string" />
+        <attr name="textHint" format="string" />
+        <attr name="textTitleWidth" format="dimension" />
+        <attr name="textInputType" format="string" />
+        <attr name="beforeTextImage" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonTextArea">
+        <attr name="textAreaTitle" format="string" />
+        <attr name="textAreaHint" format="string"/>
+        <attr name="hasTitle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonSelectView">
+        <attr name="selectorHint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonDateView">
+        <attr name="dateHint" format="string" />
+        <attr name="hasDay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonCheckbox">
+        <attr name="checkboxTitle" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CommonHeadBar">
+        <attr name="headTitle" format="string" />
+        <attr name="hasBackButton" format="boolean" />
+        <attr name="rightButton" format="string" />
+        <attr name="rightButtonImage" format="reference" />
+        <attr name="hasEmptyContent" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CommonSwitchButton">
+        <attr name="switchTitle" format="string" />
+    </declare-styleable>
+
+</resources>

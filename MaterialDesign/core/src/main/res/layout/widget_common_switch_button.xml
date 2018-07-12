@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_edit"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/widget_switch_button_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_widget_item_margin"
+        android:background="@null"
+        android:imeOptions="actionNext"
+        android:textColorHint="@color/font_gray_color"
+        android:textColor="@color/font_text_color"
+        android:text="接受推送消息"
+        android:textSize="@dimen/custom_medium_text_size"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/widget_switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_widget_item_margin"
+        android:src="@drawable/icon_on_switch" />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/net_error_empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/net_error_hint_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/net_error_empty_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:scaleType="center"
+            android:src="@drawable/icon_empty_common" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/neterror_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4dip"
+        android:text="@string/network_error_click"
+        android:textColor="@color/font_gray_color"
+        android:textSize="16sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/network_setting_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal|bottom"
+        android:lineSpacingExtra="4dip"
+        android:text="@string/network_setting_click"
+        android:textColor="@color/red"
+        android:textSize="16sp" >
+    </TextView>
+
+</LinearLayout>

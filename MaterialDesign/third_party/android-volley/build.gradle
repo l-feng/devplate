@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+    }
+}
+//allprojects {
+//    repositories {
+//        jcenter()
+//        mavenCentral();
+//        maven {
+//            url 'https://oss.sonatype.org/content/repositories/releases'
+//        }
+//        maven {
+//            url 'https://oss.sonatype.org/content/repositories/snapshots'
+//        }
+//    }
+//}
+allprojects {
+    repositories {
+        maven { url 'http://maven.oschina.net/content/groups/public/' }
+    }
+    version = '1.0.0'
+}
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 19
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'org/apache/http/*.properties'
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['resources']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['assets']
+            // aidl.srcDirs = ['src']
+            // renderscript.srcDirs = ['src']
+        }
+
+        androidTest.setRoot('tests')
+    }
+}
+
+dependencies {
+    compile files('../../core/libs/httpcore-4.4.1.jar')
+}

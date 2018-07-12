@@ -9,6 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/third_party" />
+            <option value="$PROJECT_DIR$/third_party/android-GridViewWithHeaderAndFooter" />
+            <option value="$PROJECT_DIR$/third_party/android-PullToRefresh" />
+            <option value="$PROJECT_DIR$/third_party/android-menudrawer" />
+            <option value="$PROJECT_DIR$/third_party/android-volley" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

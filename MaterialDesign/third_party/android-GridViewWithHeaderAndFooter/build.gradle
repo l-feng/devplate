@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+    }
+}
+
+//allprojects {
+//    repositories {
+//        jcenter()
+//        mavenCentral();
+//        maven {
+//            url 'https://oss.sonatype.org/content/repositories/releases'
+//        }
+//        maven {
+//            url 'https://oss.sonatype.org/content/repositories/snapshots'
+//        }
+//    }
+//}
+allprojects {
+    repositories {
+        maven{ url 'http://maven.oschina.net/content/groups/public/'}
+    }
+    version = '1.0.0'
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['resources']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            // aidl.srcDirs = ['src']
+            // renderscript.srcDirs = ['src']
+        }
+
+        androidTest.setRoot('tests')
+    }
+    buildToolsVersion '26.0.2'
+}
+
+apply from: './gradle-mvn-push.gradle'

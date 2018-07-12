@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">@android:color/transparent</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 浅白色 -->
+    <color name="gray_white">#4DFFFFFF</color>
+    <!-- 纯透明白色 -->
+    <color name="transparent_white">#00FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 主色 -->
+    <color name="blue">#2882d6</color>
+    <!-- 主色遮罩 -->
+    <color name="blue_shadow">#2069ad</color>
+    <!-- 底色 -->
+    <color name="ground_color">#f5f5f9</color>
+    <!-- 标签底色 -->
+    <color name="ground_tags_color">#f2f2f2</color>
+    <!-- 分割线颜色 -->
+    <color name="border_color">#dae1e4</color>
+    <!-- 次级分割线颜色 -->
+    <color name="secondary_border_color">#EBEBEB</color>
+    <!-- 浅灰色 -->
+    <color name="low_gray">#AEAEAE</color>
+    <!-- 灰色 -->
+    <color name="gray">#D2D2D2</color>
+    <!-- 深灰色 -->
+    <color name="gray_shadow">#999999</color>
+    <!-- 浅黄色 -->
+    <color name="light_yellow">#FFF9E0</color>
+    <!-- 黄色 -->
+    <color name="yellow">#FFDE25</color>
+    <!-- 深黄色 -->
+    <color name="yellow_shadow">#F5C728</color>
+    <!-- 蓝色 -->
+    <color name="red">#fb5d57</color>
+    <!-- 宝石绿 主色-->
+    <color name="green">#01b09a</color>
+    <!-- 浅绿色背景 -->
+    <color name="light_green">#4ec8b8</color>
+    <!-- 深绿色 -->
+    <color name="dark_green">#0f7448</color>
+    <!-- 浅灰色 -->
+    <color name="light_gray">#EAEEEF</color>
+    <!-- 标题字体颜色 -->
+    <color name="font_text_color">#666666</color>
+    <!-- 副文字体颜色 -->
+    <color name="font_gray_color">#8a8a92</color>
+    <!-- 红色字体颜色 -->
+    <color name="font_red_color">#fb5d57</color>
+    <!-- 蓝色字体颜色 -->
+    <color name="font_blue_color">#374859</color>
+    <!-- 绿色字体颜色 -->
+    <color name="font_green_color">#0fbb48</color>
+    <!-- 棕色字体颜色 -->
+    <color name="font_brown_color">#916D3B</color>
+    <!-- 弹框背景颜色 -->
+    <color name="bullet_box_bg"> #99000000</color>
+    <!-- 黑色字体颜色 -->
+    <color name="font_black_color">#19191c</color>
+    <!-- 标签背景颜色 -->
+    <color name="tag_background_color">#eeeeee</color>
+    <!-- 灰色背景颜色 -->
+    <color name="tag_gray_background_color">#e7f6f4</color>
+    <!-- 红色tags颜色 -->
+    <color name="laon_fragment_tags_background_color">#eb6100</color>
+    <!-- 绿色背景颜色 -->
+    <color name="button_backgroud_green">#effffd</color>
+
+
+
+
+
+
+
+
+    <!--首页-->
+    <!-- 边框颜色 -->
+    <color name="linear_border_color">#d2d2d2</color>
+    <color name="divider_item_color">#ebebeb</color>
+    <color name="feature_border_red_color">#7abdf3</color>
+    <color name="feature_border_blue_color">#dae1ee</color>
+    <color name="feature_background_blue_color">#e9f5ff</color>
+    <color name="feature_backgroud_red_color">#fff9e9</color>
+
+    <!--字体颜色-->
+    <color name="home_font_text1_color">#8a8a92</color>
+    <color name="home_font_text2_color">#ff5959</color>
+    <color name="home_font_text_tip_massage_color">#999999</color>
+
+
+
+    <!--福利-->
+    <!--竖线颜色-->
+    <color name="before_cash_package_color">#ffc258</color>
+    <color name="before_cresh_card_color">#5897fb</color>
+
+
+</resources>

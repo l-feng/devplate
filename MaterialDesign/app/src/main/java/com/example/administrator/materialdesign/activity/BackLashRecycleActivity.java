@@ -9,6 +9,7 @@ import com.example.administrator.materialdesign.R;
 import com.example.administrator.materialdesign.adapter.recyclelist.BacklashRecycleAdapter;
 import com.example.administrator.materialdesign.model.DataBean;
 import com.example.administrator.materialdesign.model.Datas;
+import com.example.core.activity.BaseActivity;
 
 import java.util.List;
 
@@ -17,7 +18,7 @@ import java.util.List;
  */
 
 
-public class BackLashRecycleActivity extends AppCompatActivity {
+public class BackLashRecycleActivity extends BaseActivity {
 
    private List<DataBean> list;
 

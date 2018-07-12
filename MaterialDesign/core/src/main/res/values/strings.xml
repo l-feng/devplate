@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Lottery</string>
+    <string name="empty_list">列表空空如也~</string>
+    <string name="never">从未 </string>
+    <string name="expired"> 已过期  </string>
+    <string name="within_one_minute">一分钟内</string>
+    <string name="after_minute">分钟后 </string>
+    <string name="after_hour"> 小时后  </string>
+    <string name="after_day"> 天后  </string>
+    <string name="after_month"> 个月后  </string>
+    <string name="after_year"> 年后  </string>
+    <string name="just_now"> 刚刚  </string>
+    <string name="before_minute"> 分钟前 </string>
+    <string name="before_hour">个小时前 </string>
+    <string name="before_day"> 天前 </string>
+    <string name="before_month">个月前 </string>
+    <string name="before_year">年前 </string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="date_day">日</string>
+    <string name="unknown">未知</string>
+
+    <string name="selector_popup_title">请选择</string>
+    <string name="loading">正在加载...</string>
+
+    <string name="alert_page_back_cancel">取消</string>
+    <string name="alert_page_back_content">退出此次编辑？</string>
+    <string name="alert_page_back_ok">退出</string>
+    <string name="alert_page_back_title">返回</string>
+    <string name="refresh_prompt_message">列表空空如也</string>
+    <string name="button_to_apply"> 申请贷款</string>
+
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="refresh_down_text">下拉可以刷新...</string>
+    <string name="refresh_release_text">松开立即刷新...</string>
+    <string name="refresh">刷新</string>
+    <string name="refresh_text">列表正在刷新...</string>
+    <string name="last_update_time">上次更新时间 </string>
+    <string name="network_error_click">网络状况不好\\n点击屏幕刷新试试</string>
+    <string name="network_setting_click"><![CDATA[<u>查看网络设置</u>]]></string>
+    <string name="service_error_click">数据获取失败\n请下拉刷新</string>
+    <string name="cancel">取消</string>
+    <string name="select_all">全选</string>
+    <string name="select_reverse">反选</string>
+    <string name="ok">确定</string>
+</resources>
