@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.yuanshanbao.ruidai.core.widget.CommonHeadBar
+    <com.example.core.CommonHeadBar
         android:id="@+id/activity_head_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

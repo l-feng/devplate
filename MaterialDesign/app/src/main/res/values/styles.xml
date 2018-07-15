@@ -7,7 +7,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <!--<style name="AppThemeBase" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
 
     <style name="AppTheme.Guide">
         <item name="windowActionBar">false</item>
@@ -15,4 +20,118 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
+
+
+
+    <style name="AppThemeBase" parent="@android:style/Theme">
+
+        <!-- Window -->
+        <item name="android:windowBackground">@color/ground_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!--<item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>-->
+        <!--<item name="android:windowTitleSize">46dip</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- List View -->
+        <!-- <item name="android:listSeparatorTextViewStyle">@style/ListSeparatorStyle</item> -->
+        <item name="android:absListViewStyle">@style/ListViewStyle</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+
+        <!-- Button -->
+        <!--<item name="android:buttonStyle">@style/ButtonStyle</item>-->
+        <!--
+        <item name="android:textAppearanceButton">@style/Text.Button</item>
+        <item name="android:buttonStyleToggle">@style/ToggleButtonStyle</item>
+        <item name="selectorViewStyle">@style/SelectorViewStyle</item>
+        <item name="toggleViewStyle">@style/ToggleViewStyle</item>
+        -->
+
+
+        <!-- ProgressBar -->
+        <item name="android:progressBarStyle">@style/ProgressBar.Medium</item>
+        <item name="android:progressBarStyleSmall">@style/ProgressBar.Small</item>
+        <!--
+             <item name="android:progressBarStyleSmallTitle">@style/ProgressBar.Title</item>
+        <item name="android:progressBarStyleLarge">@android:style/Widget.ProgressBar.Large</item>
+        <item name="android:progressBarStyleInverse">@android:style/Widget.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@android:style/Widget.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@android:style/Widget.ProgressBar.Large.Inverse</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBar.Horizontal</item>
+        -->
+
+
+        <!-- CheckBox -->
+        <!-- <item name="android:checkboxStyle">@style/CheckBoxStyle</item> -->
+
+
+        <!-- ScrollView -->
+        <!-- <item name="android:scrollViewStyle">@style/ScrollViewStyle</item> -->
+
+
+        <!-- TextView -->
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+
+        <!-- EditText -->
+        <!-- <item name="android:editTextStyle">@style/EditTextStyle</item> -->
+
+
+        <!-- Text Appearance -->
+
+
+        <!-- TODO: apply different text color for different state -->
+        <!--
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textAppearanceMedium">@style/TextStyle.Medium</item>
+        -->
+
+
+        <!-- Dialog -->
+        <!--<item name="android:alertDialogStyle">@style/AlertDialogStyle</item>-->
+    </style>
+    <!--
+    <style name="SplashTheme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBar.Horizontal</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="@style/AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="PushAnimationTheme" parent="@style/AppTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Push</item>
+    </style>
+
+    <style name="TransparentTheme" parent="@android:style/Theme">
+
+        Window
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    -->
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popwindow_show</item>
+        <item name="android:windowExitAnimation">@anim/popwindow_hidden</item>
+    </style>
+
+    <style name="AppBaseDialogTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        ;!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        ;!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        ;!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        ;!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        ;!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        ;!-- 模糊 -->
+
+    </style>
+
+
 </resources>

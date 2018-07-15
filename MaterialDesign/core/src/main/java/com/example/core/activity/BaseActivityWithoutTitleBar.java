@@ -25,7 +25,7 @@ import com.umeng.analytics.MobclickAgent;
  * Created by Administrator on 2018/7/12 0012.
  */
 
-public class BaseActivityWithoutTitleBar  extends Activity {
+public abstract class BaseActivityWithoutTitleBar extends Activity {
 
     protected EventBroadcastReceiver broadcastReceiver;
     protected CommonHeadBar headBar;
@@ -43,7 +43,6 @@ public class BaseActivityWithoutTitleBar  extends Activity {
     @Override
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);
-
         headBar = (CommonHeadBar) findViewById(R.id.activity_head_bar);
         progressDialog = new ProgressDialog(this);
         progressDialog= LoadingProgress.createLoadingDialog(this);

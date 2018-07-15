@@ -8,7 +8,7 @@
         android:id="@+id/layout_home_topbar"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@color/green">
+        android:background="@color/common_color">
 
         <RelativeLayout
             android:id="@+id/head_bar_back_btn"

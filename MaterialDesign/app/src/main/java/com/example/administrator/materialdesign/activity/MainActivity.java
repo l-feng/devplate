@@ -34,6 +34,8 @@ import com.example.administrator.materialdesign.fragment.SecondFragment;
 import com.example.administrator.materialdesign.fragment.ThirdFragment;
 import com.example.administrator.materialdesign.utils.ActivityUtils;
 import com.example.administrator.materialdesign.utils.BottomNavigationViewHelper;
+import com.example.administrator.materialdesign.webview.BaseWebViewActivity;
+import com.example.administrator.materialdesign.webview.WebViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -95,8 +97,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         Intent intent=new Intent(MainActivity.this,BackLashRecycleActivity.class);
                         startActivity(intent);
                     case R.id.nav_friends:
-                        Toast.makeText(MainActivity.this, "加载第二个界面", Toast.LENGTH_SHORT).show();
-                   //     mDrawerLayout.
+                        Intent intent1 = new Intent(MainActivity.this, WebViewActivity.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putString("url", "https://github.com/");
+                        intent1.putExtras(bundle);
+                        startActivity(intent1);
                         break;
                     default:
                 }

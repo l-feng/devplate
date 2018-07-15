@@ -10,13 +10,13 @@ import com.example.core.utils.ViewUtils;
  * Created by Administrator on 2018/7/12 0012.
  */
 
-public abstract class BaseActivity extends BaseActivityWithoutTitleBar {
+public abstract class  BaseActivity extends BaseActivityWithoutTitleBar {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ImmersionMode.setStatusBarTransparent(this);
-        setTitleBarColor(R.color.green);
+        setTitleBarColor(R.color.common_color);
     }
 
     protected void setHeadTitle(String title) {

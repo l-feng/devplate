@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.administrator.materialdesign.R;
+import com.example.core.activity.BaseActivity;
 
 import cn.bingoogolapple.bgabanner.BGABanner;
 import cn.bingoogolapple.bgabanner.BGALocalImageSize;
@@ -19,7 +20,7 @@ import cn.bingoogolapple.bgabanner.BGALocalImageSize;
  * Created by Administrator on 2018/7/11 0011.
  */
 
-public class GuideActivity extends Activity {
+public class GuideActivity extends  Activity{
 
     private boolean isFromSplash;
     private  BGABanner mBackgroundBanner;

@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:divider="@color/transparent" />
 
-    <com.yuanshanbao.ruidai.core.widget.list.EmptyView
+    <com.example.core.list.EmptyView
         android:id="@+id/neterror_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
