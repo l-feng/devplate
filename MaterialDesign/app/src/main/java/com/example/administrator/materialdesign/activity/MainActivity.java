@@ -90,16 +90,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected( MenuItem item) {
-
                 mDrawerLayout.closeDrawers();
                 switch (item.getItemId()) {
                      case  R.id.nav_call:
                         Intent intent=new Intent(MainActivity.this,BackLashRecycleActivity.class);
                         startActivity(intent);
+                        break;
                     case R.id.nav_friends:
                         Intent intent1 = new Intent(MainActivity.this, WebViewActivity.class);
                         Bundle bundle = new Bundle();
-                        bundle.putString("url", "https://github.com/");
+                        bundle.putString("url", "http://news.baidu.com/");
                         intent1.putExtras(bundle);
                         startActivity(intent1);
                         break;

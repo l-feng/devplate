@@ -25,7 +25,7 @@ public class BackLashRecycleActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recycler_view);
+        setContentView(R.layout.activity_back_lash_recycle);
         initDate();
         initView();
 

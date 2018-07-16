@@ -143,6 +143,6 @@
     <include
         android:id="@+id/wap_toolbar"
         layout="@layout/wap_toolbar"
-        />
+        android:visibility="gone"/>
 
 </LinearLayout>
